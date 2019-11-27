@@ -1,5 +1,7 @@
 package kr.owens.unittestexample;
 
+import kr.owens.unittestexample.main.CalculatorMain;
+
 /**
  * @author owen151128@gmail.com
  * <p>
@@ -10,6 +12,6 @@ package kr.owens.unittestexample;
 public class Application {
 
   public static void main(String[] args) {
-    System.out.println("Hello World!");
+    CalculatorMain.main(Runtime.getRuntime());
   }
 }
